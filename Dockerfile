@@ -17,7 +17,7 @@ RUN a2enmod rewrite
 
 RUN apt-get update && apt-get install \
   --allow-unauthenticated -y \
-  php7.2-gd php7.2-xml php7.2-mcrypt php7.2-curl php7.2-intl php7.2-zip php7.2-soap \
+  php7.2-gd php7.2-xml php7.2-curl php7.2-intl php7.2-zip php7.2-soap \
   php7.2-xdebug php7.2-tidy \
   build-essential nodejs supervisor \
   git subversion \
